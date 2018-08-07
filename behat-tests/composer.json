@@ -1,0 +1,23 @@
+{
+    "repositories": [
+        {
+            "url": "https://github.com/vz-translate-dev/MinkSelenium2Driver.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "4.8.21",
+        "behat/behat": "3.1.0",
+        "behat/mink": "1.7.1",
+        "behat/mink-extension": "2.2",
+        "behat/mink-goutte-driver": "1.2.1",
+        "behat/mink-selenium2-driver": "dev-master#ab3bc5e89b10b2a506c256a01fe207b8a0c1a016",
+        "behat/mink-zombie-driver": "1.4.0",
+        "emuse/behat-html-formatter": "0.1.0",
+        "box/spout": "^2.7",
+        "phpseclib/phpseclib": "^2.0"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "spec0",
+    "description": "should filter the phone list as a user types into the search box",
+    "fullName": "View: Phone list should filter the phone list as a user types into the search box",
+    "failedExpectations": [
+      {
+        "matcherName": "toBe",
+        "message": "Expected 20 to be 230.",
+        "stack": "Error: Failed expectation\n    at UserContext.<anonymous> (C:\\Users\\Pablo\\Desktop\\work\\www\\html\\angular-phonecat\\e2e-tests\\view_phone_list_spec.js:16:33)\n    at C:\\Users\\Pablo\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\Pablo\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\Pablo\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\Pablo\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\Pablo\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Pablo\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\Pablo\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\Pablo\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7",
+        "passed": false,
+        "expected": 230,
+        "actual": 20
+      }
+    ],
+    "passedExpectations": [
+      {
+        "matcherName": "toBe",
+        "message": "Passed.",
+        "stack": "",
+        "passed": true
+      },
+      {
+        "matcherName": "toBe",
+        "message": "Passed.",
+        "stack": "",
+        "passed": true
+      }
+    ],
+    "pendingReason": "",
+    "status_name": "failed"
+  },
+  {
+    "id": "spec1",
+    "description": "should be possible to control phone order via the drop-down menu",
+    "fullName": "View: Phone list should be possible to control phone order via the drop-down menu",
+    "failedExpectations": [],
+    "passedExpectations": [
+      {
+        "matcherName": "toEqual",
+        "message": "Passed.",
+        "stack": "",
+        "passed": true
+      },
+      {
+        "matcherName": "toEqual",
+        "message": "Passed.",
+        "stack": "",
+        "passed": true
+      }
+    ],
+    "pendingReason": "",
+    "status_name": "passed"
+  },
+  {
+    "id": "spec2",
+    "description": "should render phone specific links",
+    "fullName": "View: Phone list should render phone specific links",
+    "failedExpectations": [],
+    "passedExpectations": [
+      {
+        "matcherName": "toBe",
+        "message": "Passed.",
+        "stack": "",
+        "passed": true
+      }
+    ],
+    "pendingReason": "",
+    "status_name": "passed"
+  }
+]

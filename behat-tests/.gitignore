@@ -1,0 +1,9 @@
+# Ignore any composer downloaded packages
+vendor
+
+# Ignore composer binaries folder
+bin
+
+# Ignore behat report assets
+assets
+index.html

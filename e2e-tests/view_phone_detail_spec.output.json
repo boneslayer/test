@@ -1,0 +1,56 @@
+[
+  {
+    "id": "spec0",
+    "description": "should display the `nexus-s` page",
+    "fullName": "View: Phone detail should display the `nexus-s` page",
+    "failedExpectations": [],
+    "passedExpectations": [
+      {
+        "matcherName": "toBe",
+        "message": "Passed.",
+        "stack": "",
+        "passed": true
+      }
+    ],
+    "pendingReason": "",
+    "status_name": "passed"
+  },
+  {
+    "id": "spec1",
+    "description": "should display the first phone image as the main phone image",
+    "fullName": "View: Phone detail should display the first phone image as the main phone image",
+    "failedExpectations": [],
+    "passedExpectations": [
+      {
+        "matcherName": "toMatch",
+        "message": "Passed.",
+        "stack": "",
+        "passed": true
+      }
+    ],
+    "pendingReason": "",
+    "status_name": "passed"
+  },
+  {
+    "id": "spec2",
+    "description": "should swap the main image when clicking on a thumbnail image",
+    "fullName": "View: Phone detail should swap the main image when clicking on a thumbnail image",
+    "failedExpectations": [],
+    "passedExpectations": [
+      {
+        "matcherName": "toMatch",
+        "message": "Passed.",
+        "stack": "",
+        "passed": true
+      },
+      {
+        "matcherName": "toMatch",
+        "message": "Passed.",
+        "stack": "",
+        "passed": true
+      }
+    ],
+    "pendingReason": "",
+    "status_name": "passed"
+  }
+]

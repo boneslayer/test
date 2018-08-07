@@ -1,0 +1,37 @@
+default:
+  autoload:
+    '': integration/contexts
+  suites:
+    default:
+      paths:
+        - integration
+      contexts:
+        - CommonContext:
+            mySqlServer: "127.0.0.1"
+            mySqlUser: ""
+            mySqlPass: ""
+            mySqlDatabase: ""
+  extensions:
+    Behat\MinkExtension:
+      base_url: http://localhost:8000/
+      default_session: selenium2
+      browser_name: 'chrome'
+      files_path: './integration'
+      goutte: ~
+      selenium2: ~
+      sessions:
+        default:
+          selenium2: ~
+    emuse\BehatHTMLFormatter\BehatHTMLFormatterExtension:
+      name: html
+      renderer: Twig,Behat2
+      file_name: index
+      print_args: true
+      print_outp: true
+      loop_break: true
+  formatters:
+    pretty:
+      decorated: true
+      output_path: null
+    html:
+      output_path: %paths.base%
